@@ -7,6 +7,14 @@ public class Vehicle {
     protected int cargoCapacity;
     protected int fuelCapacity;
 
+    //constructor that takes parameters for all the fields
+    public Vehicle(String color, int numOfPassengers, int cargoCapacity, int fuelCapacity) {
+        this.color = color;
+        this.numOfPassengers = numOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
     //getters and setters for the properties
     public String getColor() {
         return color;
