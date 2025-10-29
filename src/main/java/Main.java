@@ -2,22 +2,22 @@ public class Main {
     public static void main(String[] args) {
 
         //moped instance
-        Moped slowRide = new Moped();
+        Moped slowRide = new Moped("Red", 2, 2, 5);
         slowRide.setColor("Red");
         slowRide.setFuelCapacity(5);
 
         //hovercraft instance
-        Hovercraft hotRide = new Hovercraft();
+        Hovercraft hotRide = new Hovercraft("Yellow", 1, 3, 10);
         hotRide.setColor("Yellow");
         hotRide.setFuelCapacity(10);
 
         //car instance
-        Car fordRaptor = new Car();
+        Car fordRaptor = new Car("Matte Black", 4, 5, 35);
         fordRaptor.setColor("Matte Black");
         fordRaptor.setFuelCapacity(35);
 
         //semitruck instance
-        SemiTruck oldFaithful = new SemiTruck();
+        SemiTruck oldFaithful = new SemiTruck("Hot Red", 1, 3, 50);
         oldFaithful.setColor("Hot Red");
         oldFaithful.setFuelCapacity(50);
 
