@@ -8,18 +8,38 @@ public class Main {
 
         //hovercraft instance
         Hovercraft hotRide = new Hovercraft();
-        hotRide.setColor("Blue");
+        hotRide.setColor("Yellow");
         hotRide.setFuelCapacity(10);
 
         //car instance
-        Car fordF150 = new Car();
-        fordF150.setColor("Blue");
-        fordF150.setFuelCapacity(35);
+        Car fordRaptor = new Car();
+        fordRaptor.setColor("Matte Black");
+        fordRaptor.setFuelCapacity(35);
 
         //semitruck instance
         SemiTruck oldFaithful = new SemiTruck();
         oldFaithful.setColor("Hot Red");
         oldFaithful.setFuelCapacity(50);
+
+        //moped output
+        System.out.println();
+        System.out.println("======================MOPED'S INFO!=========================");
+        System.out.println("The moped's color is " + slowRide.getColor() + " and its fuel capacity is " + slowRide.getFuelCapacity() + " gallons");
+        System.out.println();
+
+        //hovercraft output
+        System.out.println("======================HOVERCRAFT'S INFO!=========================");
+        System.out.println("The hovercraft's color is " + hotRide.getColor() + " and its fuel capacity is " + hotRide.getFuelCapacity() + " gallons");
+        System.out.println();
+
+        //car output
+        System.out.println("======================CAR'S INFO=========================");
+        System.out.println("The car's color is " + fordRaptor.getColor() + " and its fuel capacity is " + fordRaptor.getFuelCapacity() + " gallons");
+        System.out.println();
+
+        //semitruck output
+        System.out.println("======================SEMI-TRUCK'S INFO!=========================");
+        System.out.println("The semi-truck's color is " + oldFaithful.getColor() + " and its fuel capacity is " + oldFaithful.getFuelCapacity() + " gallons");
 
 
     }
